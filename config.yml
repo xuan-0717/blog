@@ -41,7 +41,7 @@ languages:
         - name: Tags
           url: tags/
           weight: 10
-        - name: WiKi
+        - name: "Docs (Wiki)"
           url: https://github.com/adityatelange/hugo-PaperMod/wiki/
 
   fr:
@@ -157,14 +157,12 @@ params:
 
   homeInfoParams:
     Title: "PaperMod's Demo"
-    Content: >
-      👋 Welcome to demo page of Hugo's theme PaperMod!
-
-      - **PaperMod**  is designed to be clean and simple but fast and responsive theme with useful feature-set that enhances UX.
-
-      - Feel free to show your support by giving us a star 🌟 on GitHub and sharing with your friends and social media .
-
-      - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3).
+    Content: |
+      A clean, fast, and responsive Hugo theme built for a polished reading experience.
+      - Lightweight by design, with a modern layout that keeps your content front and center.
+      - Explore the [Docs (Wiki)](https://github.com/adityatelange/hugo-PaperMod/wiki/) to learn more about features and configuration.
+      - Support the project on [GitHub](https://github.com/adityatelange/hugo-PaperMod) and share it with others who love minimalistic designs.
+      - PaperMod is inspired by the [Paper](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3) theme.
 
   socialIcons:
     - name: github
