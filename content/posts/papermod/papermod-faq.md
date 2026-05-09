@@ -7,7 +7,6 @@ aliases: ['/papermod-how-to-guide', '/posts/papermod/papermod-how-to']
 tags: ["PaperMod", "Docs"]
 author: ["PaperMod Contributors"]
 draft: true
-weight: 3
 ---
 
 > This page is not updated anymore and is only kept for reference. Please refer to [Documentation](https://github.com/adityatelange/hugo-PaperMod/wiki/) for latest information.

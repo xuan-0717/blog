@@ -3,7 +3,6 @@ title: "Social-Icons / Share-Icons"
 summary: List of all Icons supported by PaperMod
 date: 2021-01-20
 expiryDate: 2026-05-08
-weight: 4
 aliases: ["/papermod-icons"]
 tags: ["PaperMod", "Docs"]
 author: ["Aditya Telange"]

@@ -6,7 +6,6 @@ expiryDate: 2026-05-08
 tags: ["PaperMod", "Docs"]
 author: ["Aditya Telange"]
 draft: true
-weight: 5
 social:
   fediverse_creator: "@adityatelange@mastodon.social"
 ---

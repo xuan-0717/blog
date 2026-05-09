@@ -3,7 +3,6 @@ title: "Features / Mods"
 summary: Learn About All Features in PaperMod
 date: 2021-01-20
 expiryDate: 2026-05-08
-weight: 2
 aliases: ["/papermod-features"]
 tags: ["PaperMod", "Docs"]
 author: ["Aditya Telange"]
