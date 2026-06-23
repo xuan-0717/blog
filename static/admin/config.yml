@@ -2,6 +2,7 @@ backend:
   name: github
   repo: xuan-0717/blog
   branch: main
+  auth_type: pkce
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
