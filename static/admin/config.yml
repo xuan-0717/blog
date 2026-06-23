@@ -1,8 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: xuan-0717/blog
   branch: main
-  identity_url: "https://scintillating-gecko-e3a7a6.netlify.app/.netlify/identity"
-  gateway_url: "https://scintillating-gecko-e3a7a6.netlify.app/.netlify/git"
+  base_url: https://scintillating-gecko-e3a7a6.netlify.app
+  auth_type: pkce
 
 publish_mode: editorial_workflow
 
