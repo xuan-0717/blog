@@ -5,6 +5,7 @@ title: "Xuan的博客"
 copyright: "© 2026 Xuan"
 theme: [hugo-PaperMod]
 languageCode: "zh-cn"
+defaultContentLanguage: "zh"
 author: "Xuan"
 description: "分享技术，记录生活"
 
