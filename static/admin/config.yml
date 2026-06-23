@@ -1,0 +1,36 @@
+backend:
+  name: github
+  repo: xuan-0717/blog
+  branch: main
+  base_url: https://decap-oauth.netlify.app
+  auth_type: pkce
+
+publish_mode: editorial_workflow
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "posts"
+    label: "文章"
+    folder: "content/posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    path: "{{title}}/index"
+    media_folder: ""
+    public_folder: ""
+    file: ""
+    fields:
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "发布日期", name: "date", widget: "datetime" }
+      - { label: "描述", name: "description", widget: "text", required: false }
+      - { label: "标签", name: "tags", widget: "list", required: false }
+      - { label: "分类", name: "categories", widget: "list", required: false }
+      - { label: "正文", name: "body", widget: "markdown" }
+    view_filters:
+      - label: 草稿
+        field: draft
+        pattern: true
+      - label: 已发布
+        field: draft
+        pattern: false
