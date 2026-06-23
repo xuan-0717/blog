@@ -1,6 +1,8 @@
 backend:
   name: git-gateway
   branch: main
+  identity_url: "https://scintillating-gecko-e3a7a6.netlify.app/.netlify/identity"
+  gateway_url: "https://scintillating-gecko-e3a7a6.netlify.app/.netlify/git"
 
 publish_mode: editorial_workflow
 
