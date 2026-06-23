@@ -1,9 +1,6 @@
 backend:
-  name: github
-  repo: xuan-0717/blog
+  name: git-gateway
   branch: main
-  base_url: https://decap-oauth.netlify.app
-  auth_type: pkce
 
 publish_mode: editorial_workflow
 
