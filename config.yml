@@ -1,9 +1,12 @@
 # If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-baseURL: "https://adityatelange.github.io/hugo-PaperMod/"
-title: PaperMod
-copyright: "© [PaperMod Contributors](https://github.com/adityatelange/hugo-PaperMod/graphs/contributors)"
+baseURL: "https://xuan-0717.cc/"
+title: "Xuan的博客"
+copyright: "© 2026 Xuan"
 theme: [hugo-PaperMod]
+languageCode: "zh-cn"
+author: "Xuan"
+description: "分享技术，记录生活"
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -23,8 +26,8 @@ pagination:
   pagerSize: 3
 
 languages:
-  en:
-    languageName: "English"
+  zh:
+    languageName: "中文"
     weight: 1
     taxonomies:
       category: categories
@@ -32,82 +35,18 @@ languages:
       series: series
     menu:
       main:
-        - name: About
-          url: about
-          weight: 1
-        - name: Archive
+        - name: 归档
           url: archives
-          weight: 2
-        - name: Search
-          url: search/
-          weight: 2
-        - name: Tags
+          weight: 1
+        - name: 标签
           url: tags/
+          weight: 2
+        - name: 搜索
+          url: search/
+          weight: 3
+        - name: 关于
+          url: about
           weight: 4
-        - name: "Docs (Wiki)"
-          url: https://github.com/adityatelange/hugo-PaperMod/wiki/
-
-  fr:
-    languageName: "French"
-    weight: 2
-    title: PaperModL2
-    taxonomies:
-      category: FRcategories
-      tag: FRtags
-      series: FRseries
-    menu:
-      main:
-        - name: Archive
-          url: archives/
-          weight: 5
-        - name: FRTags
-          url: frtags
-          weight: 10
-        - name: FRCategories
-          url: frcategories
-          weight: 10
-        - name: FRSeries
-          url: frseries
-          weight: 10
-        - name: External
-          url: "https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode"
-
-    # custom params for each language should be under [langcode].parms - hugo v0.120.0
-    params:
-      languageAltTitle: French
-      profileMode:
-        enabled: true
-        title: PaperMod
-        imageUrl: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=200&h=200"
-        imageTitle: ProfileMode image
-        # imageWidth: 120
-        # imageHeight: 120
-        subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-        buttons:
-          - name: Blog
-            url: posts
-          - name: Profile Mode
-            url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
-
-  fa:
-    languageName: "Farsi"
-    languagedirection: rtl
-    weight: 3
-    title: PaperMod RTL
-    taxonomies:
-      category: FAcategories
-      tag: FAtags
-      series: FAseries
-    menu:
-      main:
-        - name: FATags
-          url: fatags
-          weight: 10
-    # custom params for each language should be under [langcode].parms - hugo v0.120.0
-    params:
-      homeInfoParams:
-        Title: "Hi there \U0001F44B"
-        Content: Welcome to RTL layout
 
 outputFormats:
   llms:
@@ -125,8 +64,8 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-  author: Theme PaperMod
+  description: "分享技术，记录生活"
+  author: "Xuan"
   # author: ["Me", "You"] # multiple authors
 
   defaultTheme: auto
@@ -159,31 +98,20 @@ params:
         url: tags
 
   homeInfoParams:
-    Title: "PaperMod's Demo"
+    Title: "欢迎来到我的博客"
     Content: |
-      A clean, fast, and responsive Hugo theme built for a polished reading experience. [Read more..](/about/)
-      - Lightweight by design, with a modern layout that keeps your content front and center.
-      - Explore the [Docs (Wiki)](https://github.com/adityatelange/hugo-PaperMod/wiki/) to learn more about features and configuration.
-      - Support the project on [GitHub](https://github.com/adityatelange/hugo-PaperMod) and share it with others who love minimalistic designs.
-      - PaperMod is inspired by the [Paper](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3) theme.
+      分享技术，记录生活。
+      - 这是我的个人博客，记录学习和生活的点滴。
+      - 欢迎交流讨论！
 
   socialIcons:
     - name: github
-      title: View Source on Github
-      url: "https://github.com/adityatelange/hugo-PaperMod"
-    - name: Discord
-      title: Join discord community
-      url: "https://discord.gg/ahpmTvhVmp"
-    - name: X
-      title: Share PaperMod on X/Twitter
-      url: "https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=https://github.com/adityatelange/hugo-PaperMod&hashtags=Hugo,PaperMod"
-    - name: KoFi
-      title: Buy me a Ko-Fi :)
-      url: "https://ko-fi.com/adityatelange"
+      title: GitHub
+      url: "https://github.com/xuan-0717"
 
   editPost:
-    URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-    Text: "Suggest Changes" # edit text
+    URL: "https://github.com/xuan-0717/blog/tree/main/content"
+    Text: "编辑此页" # edit text
     appendFilePath: true # to append file path to Edit link
 
   # label:
