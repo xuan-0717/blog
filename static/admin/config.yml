@@ -14,7 +14,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "标题", name: "title", widget: "string"}
-      - {label: "发布日期", name: "date", widget: "datetime"}
+      - {label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ss+08:00", date_format: "YYYY-MM-DD", time_format: "HH:mm"}
       - {label: "草稿", name: "draft", widget: "boolean", default: true}
       - {label: "标签", name: "tags", widget: "list"}
       - {label: "分类", name: "categories", widget: "list"}
