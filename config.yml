@@ -86,19 +86,17 @@ params:
   images: ["images/papermod-cover.png"]
 
   profileMode:
-    enabled: true
-    title: "Xuan"
-    imageUrl: "https://avatars.githubusercontent.com/u/xuan-0717"
-    imageTitle: "Xuan"
-    imageWidth: 120
-    imageHeight: 120
+    enabled: false
+    title: PaperMod
+    imageUrl: "#"
+    imageTitle: my image
+    # imageWidth: 120
+    # imageHeight: 120
     buttons:
-      - name: 归档
+      - name: Archives
         url: archives
-      - name: 标签
+      - name: Tags
         url: tags
-      - name: 关于
-        url: about
 
   homeInfoParams:
     Title: "欢迎来到我的博客"
@@ -129,7 +127,6 @@ params:
 
   assets:
     disableHLJS: true
-    customCSS: ["css/custom.css"]
   #     favicon: "<link / abs url>"
   #     favicon16x16: "<link / abs url>"
   #     favicon32x32: "<link / abs url>"
